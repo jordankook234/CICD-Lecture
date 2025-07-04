@@ -9,7 +9,7 @@ on:
 jobs:
   build-test:
     name: Project Build and Run Test
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     
     steps:
     - name: Set up JDK 21
@@ -20,3 +20,6 @@ jobs:
     
     - name: Checkout
       uses: actions/checkout@v4.2.2
+
+    - name: Build and Test
+      run: mvn clean install
