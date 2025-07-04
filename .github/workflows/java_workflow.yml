@@ -63,4 +63,4 @@ jobs:
       - name: Console results
         env:
           passwortnutzen: Bankkonto
-        run: echo $grussformel $begruesster, das Passwort für $passwortnutzen ist ${{sectrets.PASSWORT_NUTZEN}}
+        run: echo $grussformel $begruesster, das Passwort für $passwortnutzen ist ${{secrets.PASSWORT_NUTZEN}}
