@@ -1,6 +1,6 @@
 package th.nuernberg.testverfahren;
 
-public class Calculator {
+public final class Calculator {
     public int add(final int a, final int b) {
         return a + b;
     }
