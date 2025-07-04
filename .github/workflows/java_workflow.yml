@@ -1,4 +1,4 @@
-name: Java Workflow
+name: JavaWorkflow
 
 on:
   push:
@@ -8,7 +8,6 @@ on:
 
 jobs:
   build-test:
-    name: Project Build and Run Test
     runs-on: ubuntu_latest
     
     steps:
